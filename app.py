@@ -369,8 +369,8 @@ def setPrice():
 
 	if res == []:
 		return '<h5>Price Updated Successfully</h5>\
-			<h6>Standard: $ '+newPrice+'</h6>\
-			<h6>Gold: $ '+str( int(int(newPrice) * 1.5) )+'</h6>'
+			<h6>Standard: ₹  '+newPrice+'</h6>\
+			<h6>Gold: ₹  '+str( int(int(newPrice) * 1.5) )+'</h6>'
 
 	else:
 		print(res)
